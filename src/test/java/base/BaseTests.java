@@ -8,14 +8,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.DepositPage;
+import pages.NewCustomerPage;
 //import pages.LoginPage;
 
 import java.util.concurrent.TimeUnit;
 
 public class BaseTests {
     private WebDriver driver;
-
     protected DepositPage depositPage;
+    protected NewCustomerPage newCustomerPage;
 
     @BeforeEach
     public void setUp() {
@@ -32,15 +33,11 @@ public class BaseTests {
 //        password.sendKeys("patavu");
         By loginButton = By.xpath("/html/body/form/table/tbody/tr[3]/td[2]/input[1]");
         driver.findElement(loginButton).click();
-        By depositButton = By.xpath("/html/body/div[3]/div/ul/li[8]/a");
-        driver.findElement(depositButton).click();
         depositPage = new DepositPage(driver);
-
+        newCustomerPage = new NewCustomerPage(driver);
 //        Alert alert = driver.switchTo().alert();
 //        System.out.println(alert.getText());
 //        alert.accept();
-
-
     }
 
     @AfterEach

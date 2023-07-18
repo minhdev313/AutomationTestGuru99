@@ -5,11 +5,14 @@ import org.openqa.selenium.WebDriver;
 
 public class DepositPage {
     private WebDriver driver;
+
     private By accountTxt = By.name("accountno");
     private By amountTxt = By.name("ammount");
-
     private By descriptionTxt = By.name("desc");
     private By submit = By.xpath("/html/body/table/tbody/tr/td/table/tbody/tr[12]/td[2]/input[1]");
+
+    By depositButton = By.xpath("/html/body/div[3]/div/ul/li[8]/a");
+
 
     public DepositPage(WebDriver driver) {
         this.driver = driver;
@@ -27,8 +30,15 @@ public class DepositPage {
         driver.findElement(descriptionTxt).sendKeys(description);
     }
 
+
+
     public SecureAreaPage clickSubmitButton() {
         driver.findElement(submit).click();
+        return new SecureAreaPage(driver);
+    }
+
+    public SecureAreaPage clickTabDeposit() {
+        driver.findElement(depositButton).click();
         return new SecureAreaPage(driver);
     }
 }

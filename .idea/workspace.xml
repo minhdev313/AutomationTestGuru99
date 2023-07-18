@@ -14,8 +14,10 @@
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/chromedriver.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/pages/DepositPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NewCustomerPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/pages/SecureAreaPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/Deposit/DepositTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Deposit/NewCustomerTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,24 +41,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/ADMIN/IdeaProjects/DepositGuru99/src/main/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.48965517",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ADMIN/IdeaProjects/DepositGuru99/src/main/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.48965517&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ADMIN\IdeaProjects\DepositGuru99\src\main\java" />
@@ -64,8 +66,8 @@
       <recent name="C:\Users\ADMIN\IdeaProjects\DepositGuru99\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DepositTest.testCase11">
-    <configuration name="DepositTest.testCase010" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NewCustomerTest.testCaseTotal">
+    <configuration name="DepositTest.testCase03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DepositGuru99" />
       <extension name="coverage">
         <pattern>
@@ -75,7 +77,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="Deposit" />
       <option name="MAIN_CLASS_NAME" value="Deposit.DepositTest" />
-      <option name="METHOD_NAME" value="testCase010" />
+      <option name="METHOD_NAME" value="testCase03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepositTest.testCase04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DepositGuru99" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Deposit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Deposit" />
+      <option name="MAIN_CLASS_NAME" value="Deposit.DepositTest" />
+      <option name="METHOD_NAME" value="testCase04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepositTest.testCase06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DepositGuru99" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Deposit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Deposit" />
+      <option name="MAIN_CLASS_NAME" value="Deposit.DepositTest" />
+      <option name="METHOD_NAME" value="testCase06" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepositTest.testCase08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NewCustomerTest.testCaseTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DepositGuru99" />
       <extension name="coverage">
         <pattern>
@@ -106,40 +140,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Deposit" />
-      <option name="MAIN_CLASS_NAME" value="Deposit.DepositTest" />
-      <option name="METHOD_NAME" value="testCase08" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DepositTest.testCase09" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DepositGuru99" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Deposit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Deposit" />
-      <option name="MAIN_CLASS_NAME" value="Deposit.DepositTest" />
-      <option name="METHOD_NAME" value="testCase09" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DepositTest.testCase11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DepositGuru99" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Deposit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Deposit" />
-      <option name="MAIN_CLASS_NAME" value="Deposit.DepositTest" />
-      <option name="METHOD_NAME" value="testCase11" />
+      <option name="MAIN_CLASS_NAME" value="Deposit.NewCustomerTest" />
+      <option name="METHOD_NAME" value="testCaseTotal" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DepositTest.testCase11" />
-        <item itemvalue="JUnit.DepositTest.testCase09" />
-        <item itemvalue="JUnit.DepositTest.testCase010" />
-        <item itemvalue="JUnit.DepositTest.testCase08" />
+        <item itemvalue="JUnit.NewCustomerTest.testCaseTotal" />
         <item itemvalue="JUnit.DepositTest.testCase07" />
+        <item itemvalue="JUnit.DepositTest.testCase06" />
+        <item itemvalue="JUnit.DepositTest.testCase04" />
+        <item itemvalue="JUnit.DepositTest.testCase03" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +167,11 @@
       <updated>1689585703541</updated>
       <workItem from="1689585704587" duration="135000" />
       <workItem from="1689585862907" duration="7713000" />
+      <workItem from="1689594342590" duration="165000" />
+      <workItem from="1689597789192" duration="2685000" />
+      <workItem from="1689605773794" duration="12718000" />
+      <workItem from="1689644146733" duration="2167000" />
+      <workItem from="1689683303476" duration="4000" />
     </task>
     <servers />
   </component>
